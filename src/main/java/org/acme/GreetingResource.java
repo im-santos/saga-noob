@@ -3,7 +3,6 @@ package org.acme;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-import org.jboss.logging.annotations.Param;
 
 @Path("/echo")
 @Consumes(MediaType.APPLICATION_JSON + ";charset=utf-8")
